@@ -207,6 +207,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &633169670 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: -3650458842546562771, guid: 1b5db5e5fc99c064a8d231fd2059dd9d, type: 3}
+  m_PrefabInstance: {fileID: 6888421367965974709}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &890193358
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,25 +348,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5091705369870179303, guid: 1b5db5e5fc99c064a8d231fd2059dd9d, type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 633169670}
     - target: {fileID: 6888421368446052272, guid: 1b5db5e5fc99c064a8d231fd2059dd9d, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6888421368446052272, guid: 1b5db5e5fc99c064a8d231fd2059dd9d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5709
+      value: 0.095817864
       objectReference: {fileID: 0}
     - target: {fileID: 6888421368446052272, guid: 1b5db5e5fc99c064a8d231fd2059dd9d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.4532
+      value: 0.08773247
       objectReference: {fileID: 0}
     - target: {fileID: 6888421368446052272, guid: 1b5db5e5fc99c064a8d231fd2059dd9d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.14
+      value: -3.4023
       objectReference: {fileID: 0}
     - target: {fileID: 6888421368446052272, guid: 1b5db5e5fc99c064a8d231fd2059dd9d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.6
+      value: -0.6723
       objectReference: {fileID: 0}
     - target: {fileID: 6888421368446052272, guid: 1b5db5e5fc99c064a8d231fd2059dd9d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -409,7 +418,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6888421368446052278, guid: 1b5db5e5fc99c064a8d231fd2059dd9d, type: 3}
       propertyPath: m_Name
-      value: Square
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b5db5e5fc99c064a8d231fd2059dd9d, type: 3}
